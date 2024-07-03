@@ -23,10 +23,7 @@ public class DBConnection {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		
-		return con;
-		
+		return con;	
 	}
 	public static void main(String[] args) {
 		System.out.println(DBConnection.getConnection());
